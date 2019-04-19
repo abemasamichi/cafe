@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cafe・ド・リシャス</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+</head>
+
+<body>
+    <div class="topimages">
+        <figure><img src="images/logo.png" alt=""></figure>
+        <div class="bxslider">
+            <div><img src="images/top1.jpg" width="960" height="500" class="black" alt=""></div>
+            <div><img src="images/top2.jpg" alt=""></div>
+            <div><img src="images/top3.jpg" alt=""></div>
+            <div><img src="images/top4.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <heder>
+        <nav>
+            <ul class="top">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="info.html">Information/Access</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="recruit.html">Recruit</a></li>
+            </ul>
+            <p><img src="images/Sakura1.png" alt=""></p>
+        </nav>
+        <hr>
+    </heder>
+    <main>
+        <section class="top">
+            <div class="copy">
+                <h2>AboutCafe・ド・リシャス</h2>
+                <p>当店でもっとも人気なコーヒー<br> ブルーマウンテンと多種多様なスウィーツで、<br> 最高の休日をお過ごし頂けます。</p>
+            </div>
+
+            <div class="img"><img src="images/Topimage.jpg"></div>
+        </section>
+
+        <div class="news">
+            <h2>News Topics</h2>
+            <ol class="topics">
+                <li>
+                    <span>2018 12/4</span>
+                    <a href="/recruit/">パン祭り実施予定</a>
+                </li>
+                <li>
+                    <span>2018 12/1</span>
+                    <a href="Event">期間限定500円ランチ実施予定</a>
+                </li>
+                <li>
+                    <span>2018 11/27</span>
+                    <a href="menu">リニューアルオープンキャンペーン予定</a>
+                </li>
+                <li>
+                    <span>2018 11/25</span>
+                    <a href="Event">11/25より当店リニューアルオープン</a>
+                </li>
+            </ol>
+        </div>
+
+
+
+        <div class="other">
+            <ol>
+                <li class="menu">
+                    <a href="menu"><img src="images/Menu1.jpg" alt=""></a>
+                    <p>Menu</p>
+                </li>
+
+                <li class="info">
+                    <a href="menu"><img src="images/Access1.jpg" alt=""></a>
+                    <p>Information/Access</p>
+                </li>
+
+                <li class="info">
+                    <a href="menu"><img src="images/Event1.jpg" alt=""></a>
+                    <p>Event</p>
+                </li>
+
+                <li class="info">
+                    <a href="menu"><img src="images/Re.jpg" alt=""></a>
+                    <p>Recruit</p>
+                </li>
+            </ol>
+        </div>
+
+        <div class="footer">
+            <div>
+                <p class="logo"><img src="images/logo.jpg" alt=""></p>
+                <hr>
+                <p class="kabusiki">株式会社Cafe・ド・リシャス</p>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $('.bxslider').bxSlider({
+            auto: true,
+            stopAutoOnClick: true,
+            pager: true,
+            speed: 1000,
+            pause: 3000,
+        });
+    </script>
+</body>
+
+</html>
